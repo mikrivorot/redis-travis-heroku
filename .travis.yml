@@ -11,6 +11,9 @@ branches:
 deploy:
   provider: heroku
   app: mitestheroku
+  app: 
+    master: mitestheroku
+    # production: devmitestheroku
   api_key:
-    secure: 0a3a50c1-1395-4649-9318-f8185dd419db
+    secure: "afffbfc7-23a1-4cb4-9cea-531be883b0b0"
     
