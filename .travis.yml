@@ -1,13 +1,10 @@
 sudo: false
-
 language: node_js
 node_js:
-  - 12
-
+- 12
 branches:
   only:
-    - master
-
+  - master
 deploy:
   provider: heroku
   app: mitestheroku
@@ -15,4 +12,6 @@ deploy:
     secure: MY_SECRET_ENV
   on:
     repo: mikrivorot/redis-travis-heroku
-    
+env:
+  global:
+    secure: YQaKhWLzjwit1uaLrHd3B/mdQ5glpEwKLBoiDCrjZYR865BQselMRYycpT8qfgKyhf0hytSPn+uAuPwVZqhHhbbzeyz9hODa082Z7bXNdhPif6MEv9sF8lZF4wr0ub/BlMORnkVeZKeoapyu8IwaU91Yqp+ROEhTRNkcYKOGqpJuzLiQuG1f+Py/eh1IN73wg5cnn4rWMF9FOanVuu/FdtqDxNn+7YkLV75lYIAvjEiS8MIvHSucexs9NDfVdsT2lDzug8+jgDZknp/K6tovhRpxGgaSKiApUWoVzHgON5BprPheValqUwMnZ72D/t6an1mmycqVFIQ5+W9uT+m3JCcH9+F9MVa8OwKuvzgV7ZzwuX3yEg7zmspOusJ+vbOKPtnfeaSf5SRYzHAhLCcMSI6WCw0ZMxk3k1LJ8+wvChtMoTqs0JGpocFP4Rb7+J7bWJtuxOvWNGpkaD194tUshKqkNaObu2+SsLR5h1b9B7rlZtnioUEvi+m34a/mbIYrO4YFSp2r6abUMJCHtZFLeq8VXY6SYE2S1dCIQHx87vMoe7MEAQMBQgmhTka2plzUulwSmBw/c/DDLfmFzylEwJWvRqCM7JTlAY7nxej5ZZ7kUm2gQb8FcKn3LlCstz0QYw8AV0OZ6T/Uc3zar82t5Dv/HuzsBN5laokgDkTvEak=
