@@ -10,9 +10,9 @@ branches:
 
 deploy:
   provider: heroku
-  app: 
-    master: mitestheroku
-    # production: devmitestheroku
+  app: mitestheroku
   api_key:
     secure: "afffbfc7-23a1-4cb4-9cea-531be883b0b0"
+  on:
+    repo: mikrivorot/redis-travis-heroku
     
