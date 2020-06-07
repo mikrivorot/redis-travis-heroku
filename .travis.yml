@@ -12,7 +12,7 @@ deploy:
   provider: heroku
   app: mitestheroku
   api_key:
-    secure: "afffbfc7-23a1-4cb4-9cea-531be883b0b0"
+    secure: MY_SECRET_ENV
   on:
     repo: mikrivorot/redis-travis-heroku
     
