@@ -7,3 +7,10 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: mitestheroku
+  api_key:
+    secure: 0a3a50c1-1395-4649-9318-f8185dd419db
+    
