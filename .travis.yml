@@ -10,7 +10,6 @@ branches:
 
 deploy:
   provider: heroku
-  app: mitestheroku
   app: 
     master: mitestheroku
     # production: devmitestheroku
